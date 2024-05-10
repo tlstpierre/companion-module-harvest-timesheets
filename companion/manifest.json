@@ -1,0 +1,31 @@
+{
+  "id": "harvest-timesheets",
+  "name": "harvest-timesheets",
+  "shortname": "Harvest",
+  "description": "Harvest time tracking",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "git+https://github.com/tlstpierre/companion-module-harvest-timesheets.git",
+  "bugs": "https://github.com/tlstpierre/companion-module-harvest-timesheets/issues",
+  "maintainers": [
+    {
+      "name": "Tim St. Pierre",
+      "email": "tim@ssgc.ca"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node18",
+    "api": "nodejs-ipc",
+    "apiVersion": "0.0.0",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "Harvest",
+  "products": [
+    "Timesheets"
+  ],
+  "keywords": [
+    "Productivity",
+    "Timekeeping"
+  ]
+}

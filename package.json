@@ -1,0 +1,20 @@
+{
+  "name": "harvest-timesheets",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlstpierre/companion-module-harvest-timesheets.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@companion-module/base": "~1.4.1"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "~1.2.0"
+  }
+}
